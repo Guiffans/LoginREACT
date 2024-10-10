@@ -1,0 +1,62 @@
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#form{
+  
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 300px;
+    border-radius: 30px;
+    margin-top: 100px;
+    padding: 20px;
+}
+button{
+    height: 30px;
+    width: 80px;
+   border-radius: 12px;
+   cursor: pointer;
+}
+button:hover{
+    transition: 1s;
+    background-color: rgb(13, 0, 255);
+    color: white;
+}
+
+#text{
+    font-size: 30px;
+}
+
+#butao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.cx{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.cx input{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 3px;
+}
